@@ -8,5 +8,8 @@ import (
 func main() {
 	fileLinker := lib.CreateFileLinker("./")
 	fileLinker = fileLinker.ReadFromRootFile("test_sources/example.js")
+	fileLinker.WriteExplodedFiles("./out/")
 	spew.Dump(fileLinker)
+
+
 }
