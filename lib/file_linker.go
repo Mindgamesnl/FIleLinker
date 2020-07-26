@@ -5,3 +5,6 @@ type FileLinker struct {
 	SourceFiles []SourceFile
 }
 
+func CreateFileLinker(path string) FileLinker {
+	return FileLinker{Path: path}
+}

@@ -20,7 +20,12 @@ This means that the file `rest.js` will be loaded from the `utils` directory, sc
 ```
 //FL:START:utils/rest.js
 compiled file content...
-//FL:END:utils/rest.js
+//FL:END
+```
+
+The first line of the file should always be a root note containing the filename, example
+```
+//FL:ROOT:main.js
 ```
 
 ###Terminology:
