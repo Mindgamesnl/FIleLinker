@@ -1,3 +1,3 @@
-module github.com/Mindgamesnl/FileLinker
+module github.com/Mindgamesnl/filelinker
 
 go 1.14

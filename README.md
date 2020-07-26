@@ -22,3 +22,7 @@ This means that the file `rest.js` will be loaded from the `utils` directory, sc
 compiled file content...
 //FL:END:utils/rest.js
 ```
+
+###Terminology:
+ - **Root File** The top-level output file after compiling
+ - **Source File** One of the imported files by the root file or another source file.
